@@ -19,7 +19,7 @@ export const ItemListContainer = styled(View)`
     gap: 10px;
 `
 
-export const ItemList = styled(View)`
+export const ItemList = styled(TouchableOpacity)`
     flex: 1;
     padding: 18px;
     background-color: ${({ theme }) => theme.COLORS.GRAY_200};
